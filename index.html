@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Life Server</title>
+    <link rel="stylesheet" href="style.css"> <!-- ملف CSS -->
+</head>
+<body>
+
+    <nav>
+        <a href="shop.html">🛒 Shop</a>
+        <a href="rules.html">📜 Rules</a>
+        <a href="about.html">ℹ️ About</a>
+        <a href="https://discord.gg/wr9" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Discord_logo_2015.svg" 
+                 alt="Discord Logo" width="24" height="24" style="vertical-align: middle;"> 
+            💬 Join Discord
+        </a>
+    </nav>
+
+    <!-- زر تغيير الثيم -->
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <img id="theme-icon" 
+             src="https://upload.wikimedia.org/wikipedia/commons/6/60/Sun_symbol.svg" 
+             alt="Theme Toggle Icon" width="40" height="40">
+    </button>
+
+    <!-- لوجو الموقع -->
+    <img id="logo" 
+         src="https://media.discordapp.net/attachments/1347946350746144778/1348684820955267104/Picsart_25-02-23_20-21-56-967.png" 
+         alt="Land Life Logo" width="200" height="200">
+
+    <h1>Welcome to Land Life Server</h1>
+    <h2>Countdown Ends In:</h2>
+    <div id="countdown"></div>
+
+    <!-- زر تسجيل الدخول عبر Discord -->
+    <a href="https://discord.com/api/oauth2/authorize?client_id=1349701026042871878&redirect_uri=http://localhost:3000/callback&response_type=code&scope=identify">
+        <button>Login with Discord</button>
+    </a>
+
+    <script src="script.js"></script> <!-- ملف JavaScript -->
+</body>
+</html>
+
+
+
+ 
